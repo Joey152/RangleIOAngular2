@@ -1,7 +1,12 @@
-<h1>
-  {{title}}
+<div class="container">
+  <h1>
+    {{title}}
+  </h1>
   <nav>
       <a routerLink="/data-binding" routerLinkActive="active">Data Binding</a>
+      <a routerLink="/event-binding" routerLinkActive="active">Event Binding</a>
+      <a routerLink="/two-way-binding" routerLinkActive="active">Two-way Binding</a>
   </nav>
+  <br>
   <router-outlet></router-outlet>
-</h1>
+</div>

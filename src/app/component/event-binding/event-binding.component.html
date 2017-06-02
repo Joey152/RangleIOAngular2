@@ -1,0 +1,6 @@
+<div>
+  // TODO: doesn't work<br>
+  Parent Num: {{num}}<br>
+  Parent Count: {{parentCount}}
+  <app-counter [count]="num" (result)="ngOnChanges($event)"></app-counter>
+</div>

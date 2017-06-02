@@ -1,7 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { DataBindingComponent } from './component/data-binding.component';
+import { DataBindingComponent } from './component/data-binding/data-binding.component';
+import { EventBindingComponent } from './component/event-binding/event-binding.component';
+import { TwoWayBindingComponent } from './component/two-way-binding/two-way-binding.component';
 
 const routes: Routes = [
   {
@@ -12,6 +14,14 @@ const routes: Routes = [
   {
     path: 'data-binding',
     component: DataBindingComponent
+  },
+  {
+    path: 'event-binding',
+    component: EventBindingComponent
+  },
+  {
+    path: 'two-way-binding',
+    component: TwoWayBindingComponent
   }
 ];
 
